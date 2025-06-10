@@ -123,3 +123,11 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+.catalog {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+  background-color: #fff7f9;
+  border-radius: 10px;
+}
+...
