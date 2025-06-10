@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fef9f5;
+  color: #333;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #eee;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #d12;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #d12;
+  font-weight: 500;
+}
+
+.hero {
+  background: linear-gradient(#d33, #f77);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.intro, .brands, .contact {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.product-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.product {
+  flex: 1 1 250px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.product p {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #555;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.contact button {
+  padding: 12px;
+  border: none;
+  background-color: #d12;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.social {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.insta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #f04393;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.insta-button img {
+  width: 24px;
+  height: 24px;
+}
+
+footer {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
